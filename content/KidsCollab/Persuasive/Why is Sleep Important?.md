@@ -1,5 +1,6 @@
 # Why is sleep important?
-*by Sidney L*
+
+*By Sidney L*
 
 Zzzzzzzzzz! Zzzzzzzz! Every night you should find yourself sleeping anytime during the night. Experts say that sleeping is the most important thing of our life! Even more important than school! (Sorry teachers.) If you didn’t sleep, you would not be yourself. You would not of concentrated, got questions wrong you seriously already knew and you may not be attentive and social in class time. See, this is how important sleep is! Children in their school ages (9 – 13 years old) need 9-11 hours of sleep. They need way more sleep than adults because they learn new things every day. The information has to be stored in your brain so that you can refer to it later on. Keep reading to find out how important sleep is! (It really is important)   
  
@@ -8,7 +9,8 @@ Experts say that
 - Newborns (0 – 3 months) have to sleep between 10.5 – 18 hours a day, 
 - Infants (4 - 11 months) have to sleep between 9 – 12 hours a day, 
 - Toddlers (1 – 2 years) have to sleep between 11 – 14 hours a day and  
-- School Aged Children (Like you!) (6 – 13 years) have to sleep between 9 – 11 hours a day 
+- School Aged Children (Like you!) (6 – 13 years) have to sleep between 9 – 11 hours a day
+
 See??? Everyone needs Sleep. No matter what your age is. 
  
 Secondly, sleeping at the wrong time can make you feel drowsy and tired. It can lower your concentration levels at school and getting questions wrong you know. Sleep can impact your whole day! If you sleep better, your life will be better! You will be happier, calmer and make strong decisions throughout the day. 
@@ -20,7 +22,8 @@ For all of the reasons above, experts say everyone should be sleeping at their d
 - Newborns – 9 – 12 hours, 
 - Infants – 10.5 – 18 hours, 
 - Toddlers – 11 – 14 hours and  
-- School Aged Children – 9 – 11 hours  
+- School Aged Children – 9 – 11 hours 
+
 Sleeping can affect your daily life negatively and you alter your performance at school, you can misbehave, not think about strong and good choices and get questions wrong you already know. 
 Sleeping can also help your growth and you can be way more beneficial by just… Sleeping!  
 So everyone, experts encourage you to sleep well and as you can see, you will have a happier life! 
