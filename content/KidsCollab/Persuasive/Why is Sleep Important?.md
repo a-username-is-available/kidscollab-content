@@ -12,7 +12,7 @@ Experts say that
 See??? Everyone needs Sleep. No matter what your age is. 
  
 Secondly, sleeping at the wrong time can make you feel drowsy and tired. It can lower your concentration levels at school and getting questions wrong you know. Sleep can impact your whole day! If you sleep better, your life will be better! You will be happier, calmer and make strong decisions throughout the day. 
-The day before a test, you really should sleep well, as I said, if you sleep for 7 hours that night, it is more likely that you will get simple questions wrong. (For example 2+4=8!) No one would ever want to do that, would they? Sleep can help you a lot at school by either learning more or being more accurate. Treat every night and day as if you had a test every day! Nor will you sleep less neither make SILLY mistakes!  
+The day before a test, you really should sleep well, as I said, if you sleep for 7 hours that night, it is more likely  that you will get simple questions wrong. (For example 2+4=8!) No one would ever want to do that, would they? Sleep can help you a lot at school by either learning more or being more accurate. Treat every night and day as if you had a test every day! Nor will you sleep less neither make SILLY mistakes!  
  
 Last, but definitely not the least, sleep can help you grow, now everyone knows that! (Well not that before you sleep you are 132 cm tall then the morning you wake up you are 190 cm!) You will grow slowly! But if you DON’T sleep you will stay at your height or even possibly shrink (not that much!) See, you can protect yourself a lot by just sleeping! You have to sleep no matter what you think you can do. All of you want to grow? Don’t you? 
  

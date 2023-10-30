@@ -25,8 +25,12 @@ async function transferDirectory(path = '') {
     
         const html = marked(await readFile(newPath, { encoding: 'utf-8' }));
         await mkdir(OUT + '/' + path , { recursive: true });
-        await writeFile(OUT + '/' + path + '/' + baseName + '.html', html); // Yes i know `${thing}other` exists im lazy
+        await writeFile(OUT + '/' + path + '/' + fixName(baseName) + '.html', html); // Yes i know `${thing}other` exists im lazy
     }
+}
+
+function fixName(name) {
+    return name.replaceAll(' ', '-').replaceAll(/[?#/]/g, '');
 }
 
 function traverseByPath(array, path) {
