@@ -2,7 +2,7 @@
 
 import { marked } from "marked";
 import { lstat, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
-import path, { basename, relative } from "node:path";
+// import path, { basename, relative } from "node:path";
 // import { cwd } from "node:process";
 
 const IN = './content/';
@@ -10,13 +10,13 @@ const OUT = './dist/';
 
 const structure = [];
 async function transferDirectory(path = '') {
-    const directory = await readdir(IN + path);
+    const directory = await readdir(IN + '/' +path);
 
     for (const file of directory) {
-        const newPath = IN + path + '/' + file;
+        const newPath = IN + '/' + path + '/' + file;
 
         if ((await lstat(newPath)).isDirectory()) {
-            await transferDirectory(path + file);
+            await transferDirectory(path + '/' + file);
             continue;
         }
 
@@ -24,8 +24,8 @@ async function transferDirectory(path = '') {
         traverseByPath(structure, path).push(baseName);
     
         const html = marked(await readFile(newPath, { encoding: 'utf-8' }));
-        await mkdir(OUT + path , { recursive: true });
-        await writeFile(OUT + path + '/' + baseName + '.html', html); // Yes i know `${thing}other` exists im lazy
+        await mkdir(OUT + '/' + path , { recursive: true });
+        await writeFile(OUT + '/' + path + '/' + baseName + '.html', html); // Yes i know `${thing}other` exists im lazy
     }
 }
 
