@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "node index.mjs"
+  },
   "dependencies": {
     "marked": "^9.1.3"
   }
