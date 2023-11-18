@@ -25,7 +25,7 @@ async function transferDirectory(path = '') {
         const uuid = v5(normalize(path + '/' + file), UUID_NAMESPACE);
         traverseByPath(structure, path).push({ name: baseName, uuid });
     
-        const html = marked(await readFile(newPath, { encoding: 'utf-8' }));
+        const html = uuid + '\n' + marked(await readFile(newPath, { encoding: 'utf-8' }));
         await mkdir(OUT + '/' + path , { recursive: true });
         await writeFile(OUT + '/' + path + '/' + fixName(baseName) + '.html', html); // Yes i know `${thing}other` exists but it creates more noise
     }
