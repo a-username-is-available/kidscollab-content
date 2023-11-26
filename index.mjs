@@ -10,6 +10,8 @@ const OUT = './dist/';
 const UUID_NAMESPACE = '866cb8d6-ce7f-463d-ae10-666464fd2326';
 
 const structure = [];
+const map = {};
+
 async function transferDirectory(path = '') {
     const directory = await readdir(IN + '/' +path);
 
@@ -24,6 +26,7 @@ async function transferDirectory(path = '') {
         const baseName = file.split('.')[0];
         const uuid = v5(normalize(path + '/' + file), UUID_NAMESPACE);
         traverseByPath(structure, path).push({ name: baseName, uuid });
+        map[uuid] = { path, name: baseName };
     
         const html = uuid + '\n' + marked(await readFile(newPath, { encoding: 'utf-8' }));
         await mkdir(OUT + '/' + path , { recursive: true });
@@ -50,3 +53,4 @@ function traverseByPath(array, path) {
 
 await transferDirectory();
 await writeFile('nav.json', JSON.stringify(structure));
+await writeFile('map.json', JSON.stringify(map));
